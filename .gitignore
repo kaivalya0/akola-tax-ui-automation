@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+
+# Playwright & Reports
+allure-results/
+test-results/
+playwright-report/
+blob-report/
+reports/
+report.html
+screenshots/
+
+# Secrets & Config
+.env
+data/auth_*.json
+
+# IDE & System
+.idea/
+.vscode/
+Extensions/
+*.log
+.DS_Store

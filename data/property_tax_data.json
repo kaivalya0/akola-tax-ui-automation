@@ -1,0 +1,43 @@
+{
+  "property_tax": {
+    "url": "https://onesolutionakolaprompt.tabamc.in/Login",
+    "invalid_users": [
+      {
+        "username": "kpatil",
+        "password": "wrong_password",
+        "error": "Invalid Username Or Password! ReLogin with correct Username & Password."
+      },
+      {
+        "username": "",
+        "password": "valid_password",
+        "error": "Enter User Name"
+      },
+      {
+        "username": "valid_user",
+        "password": "",
+        "error": "Enter User Password"
+      },
+      {
+        "username": "",
+        "password": "",
+        "error": "Enter User Name"
+      },
+      {
+        "username": "fake_user_999",
+        "password": "any_password",
+        "error": "Invalid Username Or Password! ReLogin with correct Username & Password."
+      }
+    ]
+  },
+  "offline_payment": {
+    "valid_search": {
+      "identifier": "1234567890"
+    },
+    "invalid_search": {
+      "identifier": "999988887766"
+    },
+    "no_dues_search": {
+      "identifier": "AKLMC0162796"
+    }
+  }
+}
